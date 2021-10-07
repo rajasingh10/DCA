@@ -1,0 +1,13 @@
+.contest_heading {
+  text-align: center;
+  background-color: rgb(206, 200, 200);
+  padding: 10px;
+}
+
+.ContestCards {
+  display: flex;
+  overflow-x: scroll;
+}
+.ContestCards::-webkit-scrollbar {
+  display: none;
+}

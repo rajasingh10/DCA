@@ -1,0 +1,62 @@
+.contestCard {
+  width: 300px;
+  margin: 2rem;
+  cursor: pointer;
+}
+.contestCard_content {
+  width: 300px;
+  height: 180px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  padding: 10px 10px 30px 10px;
+  /* text-align: center; */
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.heading {
+  /* margin-top: 10px; */
+  height: 100px;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid gray;
+}
+.details {
+  padding: 10px;
+}
+.contestCard_name {
+  position: relative;
+  z-index: 1;
+  width: fit-content;
+  padding: 10px;
+  background-color: rgb(236, 193, 177);
+  border-radius: 10px;
+  margin: -25px auto 0px auto;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 50%);
+  font-weight: 600;
+}
+.start_time {
+  margin-bottom: 3px;
+  background-color: rgba(218, 255, 214, 0.829);
+  padding: 3px;
+  border-radius: 9px;
+  font-weight: 450;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 50%);
+}
+.end_time {
+  background-color: rgba(255, 234, 228, 0.89);
+  padding: 3px;
+  border-radius: 9px;
+  font-weight: 450;
+  box-shadow: 0 1px 2px 0 rgb(0 0 0 / 50%);
+}
+.duration {
+  text-align: center;
+  margin-top: 5px;
+  background-color: rgb(232, 255, 255);
+}

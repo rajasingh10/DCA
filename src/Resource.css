@@ -1,0 +1,45 @@
+.resource {
+  margin-bottom: 10px;
+}
+.resource_heading {
+  text-align: center;
+  background-color: rgb(245, 220, 200);
+  width: 50%;
+  margin: auto;
+  padding: 15px;
+  border-radius: 30px;
+}
+.freeLearning_heading {
+  margin-top: 10px;
+  background-color: rgb(180, 179, 179);
+  text-align: center;
+  padding: 10px;
+}
+
+.learningcards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-x: scroll;
+}
+.learningcards::-webkit-scrollbar {
+  display: none;
+}
+
+.youtube_heading {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  background-color: rgb(180, 179, 179);
+  justify-content: center;
+}
+.youtube_heading > span {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.youtube_logo {
+  width: 150px;
+  object-fit: contain;
+  margin-right: 10px;
+}

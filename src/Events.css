@@ -1,0 +1,14 @@
+.heading {
+  text-align: center;
+  background-color: rgb(228, 227, 227);
+  padding: 10px;
+}
+.all_events {
+  display: flex;
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+  overflow-x: scroll;
+}
+.all_events::-webkit-scrollbar {
+  display: none;
+}
